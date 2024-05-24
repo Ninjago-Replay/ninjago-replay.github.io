@@ -1,8 +1,8 @@
 const images = [
     { src: "Info/Characters/Lloyd/dr2.png", title: "لويد" },
     { src: "Info/Characters/Wu/dr2.png", title: "المعلم وو" },
-    { src: "Info/Characters/kai/dr2.png", title: "كاي" },
-    { src: "Info/Characters/jay/dr2.png", title: "جاي" },
+    { src: "Info/Characters/Kai/dr2.png", title: "كاي" },
+    { src: "Info/Characters/Jay/dr2.png", title: "جاي" },
     { src: "Info/Characters/Zane/dr2.png", title: "زين" },
     { src: "Info/Characters/Cole/dr2.png", title: "كول" },
     { src: "Info/Characters/Nya/dr2.png", title: "نيا" },
