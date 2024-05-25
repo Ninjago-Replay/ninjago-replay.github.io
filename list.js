@@ -7,6 +7,13 @@ const items = [
       buttonUrl: "s1/index.html",
       buttonText: "شاهد الان"
     },
+    { 
+      title: "الجزء الثاني",
+      description: "تراث النينجا الأخضر",
+      imageUrl: "s2.png",
+      buttonUrl: "s2/index.html",
+      buttonText: "شاهد الان"
+    },
   ];
   
   // Function to render the repeater component
