@@ -7,7 +7,6 @@ const navigationLinks = [
     // Add more links as needed
 ];
 
-// Function to create the navigation bar dynamically
 function createNavigationBar() {
     const navElement = document.getElementById('navigation');
 
@@ -17,11 +16,27 @@ function createNavigationBar() {
     logoImage.alt = 'My Logo';
     navElement.appendChild(logoImage);
 
+    // Create the hamburger menu button for mobile view
+    const menuButton = document.createElement('button');
+    menuButton.className = 'menu-button';
+    menuButton.innerHTML = '&#9776;';
+    navElement.appendChild(menuButton);
+
+    // Create the div that will hold the navigation links
+    const linksContainer = document.createElement('div');
+    linksContainer.className = 'links-container';
+    navElement.appendChild(linksContainer);
+
     navigationLinks.forEach(link => {
         const linkElement = document.createElement('a');
         linkElement.textContent = link.text;
         linkElement.href = link.url;
-        navElement.appendChild(linkElement);
+        linksContainer.appendChild(linkElement);
+    });
+
+    // Add event listener to toggle the navigation links on mobile view
+    menuButton.addEventListener('click', () => {
+        linksContainer.classList.toggle('show');
     });
 }
 
