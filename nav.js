@@ -1,6 +1,6 @@
 // Define the array of navigation links and their corresponding URLs
 const navigationLinks = [
-    { text: 'الرئيسية', url: 'index.html' },
+    { text: 'الرئيسية', url: 'index' },
     { text: 'المشاهدة', url: 'watch.html' },
     { text: 'معلومات عنا', url: 'about.html' },
     { text: 'اتصل بنا', url: 'contact.html' },
