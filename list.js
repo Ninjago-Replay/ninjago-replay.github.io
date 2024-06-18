@@ -1,6 +1,13 @@
 // Sample data for demonstration
 const items = [
     { 
+      title: "الجزء التجريبي",
+      description: "طريق النينجا",
+      imageUrl: "pilot.png",
+      buttonUrl: "s0/index.html",
+      buttonText: "شاهد الان"
+    },
+    { 
       title: "الجزء الاول",
       description: "عودة الثعابين",
       imageUrl: "s1.png",
