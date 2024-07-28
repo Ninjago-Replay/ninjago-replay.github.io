@@ -3,7 +3,7 @@
 // Define footer content
 var footerContent = {
     copyright: "© 2024 Ninjago Replay. كل الحقوق محفوظة",
-    version: "V 1.0"
+    version: "28.7.2024"
 };
 
 // Function to create and append the footer
