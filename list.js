@@ -21,6 +21,13 @@ const items = [
       buttonUrl: "s2/index.html",
       buttonText: "شاهد الان"
     },
+    { 
+        title: "الجزء الثالث",
+        description: "إعادة التشغيل",
+        imageUrl: "s3.png",
+        buttonUrl: "s3/index.html",
+        buttonText: "شاهد الان"
+      },
   ];
   
   // Function to render the repeater component
