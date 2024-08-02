@@ -1,45 +1,73 @@
 // Sample data for demonstration
 const items = [
     { 
-      title: "الجزء التجريبي",
-      description: "طريق النينجا",
-      imageUrl: "pilot.png",
-      buttonUrl: "s0/index.html",
+      title: "الحلقة الاولى",
+      description: "رياح التغيير",
+      imageUrl: "ep1.png",
+      buttonUrl: "ep1.html",
       buttonText: "شاهد الان"
     },
     { 
-      title: "الجزء الاول",
-      description: "عودة الثعابين",
-      imageUrl: "s1.png",
-      buttonUrl: "s1/index.html",
+      title: "الحلقة الثانية",
+      description: "قصة شبح",
+      imageUrl: "ep2.png",
+      buttonUrl: "ep2.html",
       buttonText: "شاهد الان"
     },
     { 
-      title: "الجزء الثاني",
-      description: "تراث النينجا الأخضر",
-      imageUrl: "s2.png",
-      buttonUrl: "s2/index.html",
+      title: "الحلقة الثالثة",
+      description: "الستيكس و الحجارة",
+      imageUrl: "ep3.png",
+      buttonUrl: "ep3.html",
       buttonText: "شاهد الان"
     },
     { 
-        title: "الجزء الثالث",
-        description: "إعادة التشغيل",
-        imageUrl: "s3.png",
-        buttonUrl: "s3/index.html",
-        buttonText: "شاهد الان"
-      },
-    { 
-        title: "الجزء الرابع",
-        description: "بطولة العناصر",
-        imageUrl: "s4.png",
-        buttonUrl: "s4/index.html",
+        title: "الحلقة الرابعة",
+        description: "معبد على تل الاشباح",
+        imageUrl: "ep4.png",
+        buttonUrl: "ep4.html",
         buttonText: "شاهد الان"
       },
       { 
-        title: "الجزء الخامس",
-        description: "غزو الاشباح",
-        imageUrl: "s5.png",
-        buttonUrl: "s5/index.html",
+        title: "الحلقة الخامسة",
+        description: "المفاجاة",
+        imageUrl: "ep5.png",
+        buttonUrl: "ep5.html",
+        buttonText: "شاهد الان"
+      },
+      { 
+        title: "الحلقة السادسة",
+        description: "مملكة السحوب",
+        imageUrl: "ep6.png",
+        buttonUrl: "ep6.html",
+        buttonText: "شاهد الان"
+      },
+      { 
+        title: "الحلقة السابعة",
+        description: "الممر الملتوي",
+        imageUrl: "ep7.png",
+        buttonUrl: "ep7.html",
+        buttonText: "شاهد الان"
+      },
+      { 
+        title: "الحلقة الثامنة",
+        description: "خطر جسيم",
+        imageUrl: "ep8.png",
+        buttonUrl: "ep8.html",
+        buttonText: "شاهد الان"
+      },
+      { 
+        title: "الحلقة التاسعة",
+        description: "لعنة العالم الجزء الأول",
+        imageUrl: "ep9.png",
+        buttonUrl: "ep9.html",
+        buttonText: "شاهد الان"
+      },
+      { 
+        title: "الحلقة العاشرة",
+        description: "لعنة العالم الجزء الثاني",
+        imageUrl: "ep10.png",
+        buttonUrl: "ep10.html",
         buttonText: "شاهد الان"
       },
   ];
@@ -90,3 +118,4 @@ const items = [
   
   // Render the repeater component with sample data
   renderRepeater(items);
+  
