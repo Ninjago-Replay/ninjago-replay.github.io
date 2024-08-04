@@ -49,6 +49,13 @@ const items = [
         buttonUrl: "s6/index.html",
         buttonText: "شاهد الان"
       },
+      { 
+        title: "حلقة خاصة",
+        description: "يوم الرحيل",
+        imageUrl: "dod.png",
+        buttonUrl: "Day of the Departed/index.html",
+        buttonText: "شاهد الان"
+      },
   ];
   
   // Function to render the repeater component
