@@ -77,6 +77,13 @@ const items = [
         buttonUrl: "s9/index.html",
         buttonText: "شاهد الان"
       },
+      { 
+        title: "الموسم العاشر",
+        description: "مسيرة أوني",
+        imageUrl: "s10.png",
+        buttonUrl: "s10/index.html",
+        buttonText: "شاهد الان"
+      },
   ];
   
   // Function to render the repeater component
