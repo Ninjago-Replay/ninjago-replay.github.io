@@ -1,80 +1,73 @@
 // Sample data for demonstration
 const items = [
     { 
-      title: "الجزء التجريبي",
-      description: "طريق النينجا",
-      imageUrl: "pilot.png",
-      buttonUrl: "s0/index.html",
+      title: "الحلقة الاولى",
+      description: "الوليدة الأولى",
+      imageUrl: "ep1.png",
+      buttonUrl: "ep1.html",
       buttonText: "شاهد الان"
     },
     { 
-      title: "الجزء الاول",
-      description: "عودة الثعابين",
-      imageUrl: "s1.png",
-      buttonUrl: "s1/index.html",
+      title: "الحلقة الثانية",
+      description: "الحديد وصخر",
+      imageUrl: "ep2.png",
+      buttonUrl: "ep2.html",
       buttonText: "شاهد الان"
     },
     { 
-      title: "الجزء الثاني",
-      description: "تراث النينجا الأخضر",
-      imageUrl: "s2.png",
-      buttonUrl: "s2/index.html",
+      title: "الحلقة الثالثة",
+      description: "إذاعة نينجاغو الخاصة",
+      imageUrl: "ep3.png",
+      buttonUrl: "ep3.html",
       buttonText: "شاهد الان"
     },
     { 
-        title: "الجزء الثالث",
-        description: "إعادة التشغيل",
-        imageUrl: "s3.png",
-        buttonUrl: "s3/index.html",
-        buttonText: "شاهد الان"
-      },
-    { 
-        title: "الجزء الرابع",
-        description: "بطولة العناصر",
-        imageUrl: "s4.png",
-        buttonUrl: "s4/index.html",
+        title: "الحلقة الرابعة",
+        description: "كيف تبني تنين",
+        imageUrl: "ep4.png",
+        buttonUrl: "ep4.html",
         buttonText: "شاهد الان"
       },
       { 
-        title: "الجزء الخامس",
-        description: "غزو الاشباح",
-        imageUrl: "s5.png",
-        buttonUrl: "s5/index.html",
+        title: "الحلقة الخامسة",
+        description: "الطريق الذهبي",
+        imageUrl: "ep5.png",
+        buttonUrl: "ep5.html",
         buttonText: "شاهد الان"
       },
       { 
-        title: "الجزء السادس",
-        description: "محاربة القراصنة",
-        imageUrl: "s6.png",
-        buttonUrl: "s6/index.html",
+        title: "الحلقة السادسة",
+        description: "كذبتين أثنين وحقيقة واحدة",
+        imageUrl: "ep6.png",
+        buttonUrl: "ep6.html",
         buttonText: "شاهد الان"
       },
       { 
-        title: "حلقة خاصة",
-        description: "يوم الرحيل",
-        imageUrl: "dod.png",
-        buttonUrl: "Day of the Departed/index.html",
+        title: "الحلقة السابعة",
+        description: "الجزء الأضعف",
+        imageUrl: "ep7.png",
+        buttonUrl: "ep7.html",
         buttonText: "شاهد الان"
       },
       { 
-        title: "الجزء السابع",
-        description: "عقارب الساعة",
-        imageUrl: "s7.png",
-        buttonUrl: "s7/index.html",
+        title: "الحلقة الثامنة",
+        description: "إنقاذ فيث",
+        imageUrl: "ep8.png",
+        buttonUrl: "ep8.html",
         buttonText: "شاهد الان"
       },
       { 
-        title: "الجزء الثامن",
-        description: "أبناء جرمدون",
-        imageUrl: "s8.png",
-        buttonUrl: "s8/index.html",
+        title: "الحلقة التاسعة",
+        description: "دروس للمعلم",
+        imageUrl: "ep9.png",
+        buttonUrl: "ep9.html",
         buttonText: "شاهد الان"
       },
       { 
-        title: "الجزء التاسع",
-        description: "المطاردة",
-        imageUrl: "s9.png",
-        buttonUrl: "s9/index.html",
+        title: "الحلقة العاشرة",
+        description: "المصير الأخضر",
+        imageUrl: "ep10.png",
+        buttonUrl: "ep10.html",
         buttonText: "شاهد الان"
       },
   ];
@@ -125,3 +118,4 @@ const items = [
   
   // Render the repeater component with sample data
   renderRepeater(items);
+  
