@@ -44,7 +44,7 @@ const items = [
       },
       { 
         title: "الحلقة السابعة",
-        description: "الجزء الأضعف",
+        description: "الموسم الأضعف",
         imageUrl: "ep7.png",
         buttonUrl: "ep7.html",
         buttonText: "شاهد الان"

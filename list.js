@@ -1,49 +1,49 @@
 // Sample data for demonstration
 const items = [
     { 
-      title: "الجزء التجريبي",
+      title: "الموسم التجريبي",
       description: "طريق النينجا",
       imageUrl: "pilot.png",
       buttonUrl: "s0/index.html",
       buttonText: "شاهد الان"
     },
     { 
-      title: "الجزء الاول",
+      title: "الموسم الاول",
       description: "عودة الثعابين",
       imageUrl: "s1.png",
       buttonUrl: "s1/index.html",
       buttonText: "شاهد الان"
     },
     { 
-      title: "الجزء الثاني",
+      title: "الموسم الثاني",
       description: "تراث النينجا الأخضر",
       imageUrl: "s2.png",
       buttonUrl: "s2/index.html",
       buttonText: "شاهد الان"
     },
     { 
-        title: "الجزء الثالث",
+        title: "الموسم الثالث",
         description: "إعادة التشغيل",
         imageUrl: "s3.png",
         buttonUrl: "s3/index.html",
         buttonText: "شاهد الان"
       },
     { 
-        title: "الجزء الرابع",
+        title: "الموسم الرابع",
         description: "بطولة العناصر",
         imageUrl: "s4.png",
         buttonUrl: "s4/index.html",
         buttonText: "شاهد الان"
       },
       { 
-        title: "الجزء الخامس",
+        title: "الموسم الخامس",
         description: "غزو الاشباح",
         imageUrl: "s5.png",
         buttonUrl: "s5/index.html",
         buttonText: "شاهد الان"
       },
       { 
-        title: "الجزء السادس",
+        title: "الموسم السادس",
         description: "محاربة القراصنة",
         imageUrl: "s6.png",
         buttonUrl: "s6/index.html",
@@ -57,21 +57,21 @@ const items = [
         buttonText: "شاهد الان"
       },
       { 
-        title: "الجزء السابع",
+        title: "الموسم السابع",
         description: "عقارب الساعة",
         imageUrl: "s7.png",
         buttonUrl: "s7/index.html",
         buttonText: "شاهد الان"
       },
       { 
-        title: "الجزء الثامن",
+        title: "الموسم الثامن",
         description: "أبناء جرمدون",
         imageUrl: "s8.png",
         buttonUrl: "s8/index.html",
         buttonText: "شاهد الان"
       },
       { 
-        title: "الجزء التاسع",
+        title: "الموسم التاسع",
         description: "المطاردة",
         imageUrl: "s9.png",
         buttonUrl: "s9/index.html",

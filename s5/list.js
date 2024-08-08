@@ -58,14 +58,14 @@ const items = [
       },
       { 
         title: "الحلقة التاسعة",
-        description: "لعنة العالم الجزء الأول",
+        description: "لعنة العالم الموسم الأول",
         imageUrl: "ep9.png",
         buttonUrl: "ep9.html",
         buttonText: "شاهد الان"
       },
       { 
         title: "الحلقة العاشرة",
-        description: "لعنة العالم الجزء الثاني",
+        description: "لعنة العالم الموسم الثاني",
         imageUrl: "ep10.png",
         buttonUrl: "ep10.html",
         buttonText: "شاهد الان"

@@ -8,8 +8,8 @@ const episodes = [
     { title: 'الحلقة 6 : مملكة السحوب', pageUrl: 'ep6.html' },
     { title: 'الحلقة 7 : الممر الملتوي', pageUrl: 'ep7.html' },
     { title: 'الحلقة 8 : خطر جسيم', pageUrl: 'ep8.html' },
-    { title: 'الحلقة 9 : لعنة العالم الجزء الأول', pageUrl: 'ep9.html' },
-    { title: 'الحلقة 10 : لعنة العالم الجزء الثاني', pageUrl: 'ep10.html' }
+    { title: 'الحلقة 9 : لعنة العالم الموسم الأول', pageUrl: 'ep9.html' },
+    { title: 'الحلقة 10 : لعنة العالم الموسم الثاني', pageUrl: 'ep10.html' }
 ];
 
 // Function to create the episode list

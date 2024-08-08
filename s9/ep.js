@@ -6,7 +6,7 @@ const episodes = [
     { title: 'الحلقة 4 : كيف تبني تنين', pageUrl: 'ep4.html' },
     { title: 'الحلقة 5 : الطريق الذهبي', pageUrl: 'ep5.html' },
     { title: 'الحلقة 6 : كذبتين أثنين وحقيقة واحدة', pageUrl: 'ep6.html' },
-    { title: 'الحلقة 7 : الجزء الأضعف', pageUrl: 'ep7.html' },
+    { title: 'الحلقة 7 : الموسم الأضعف', pageUrl: 'ep7.html' },
     { title: 'الحلقة 8 : إنقاذ فيث', pageUrl: 'ep8.html' },
     { title: 'الحلقة 9 : دروس للمعلم', pageUrl: 'ep9.html' },
     { title: 'الحلقة 10 : المصير الأخضر', pageUrl: 'ep10.html' }
