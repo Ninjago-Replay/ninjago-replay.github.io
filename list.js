@@ -84,6 +84,13 @@ const items = [
         buttonUrl: "s10/index.html",
         buttonText: "شاهد الان"
       },
+      { 
+        title: "الموسم الحادية عشرة",
+        description: "أسرار سبينجيتسو المحرمة",
+        imageUrl: "s11.png",
+        buttonUrl: "s11/index.html",
+        buttonText: "شاهد الان"
+      },
   ];
   
   // Function to render the repeater component
