@@ -91,6 +91,13 @@ const items = [
         buttonUrl: "s11/index.html",
         buttonText: "شاهد الان"
       },
+      { 
+        title: "الموسم الثانية عشرة",
+        description: " الإمبراطورية برايم",
+        imageUrl: "s12.png",
+        buttonUrl: "s12/index.html",
+        buttonText: "شاهد الان"
+      },
   ];
   
   // Function to render the repeater component
