@@ -105,6 +105,13 @@ const items = [
         buttonUrl: "s13/index.html",
         buttonText: "شاهد الان"
       },
+      { 
+        title: "الموسم",
+        description: "الجزيرة",
+        imageUrl: "island.png",
+        buttonUrl: "island/index.html",
+        buttonText: "شاهد الان"
+      },
   ];
   
   // Function to render the repeater component
