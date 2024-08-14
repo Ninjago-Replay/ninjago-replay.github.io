@@ -109,7 +109,7 @@ const items = [
         title: "الموسم",
         description: "الجزيرة",
         imageUrl: "island.png",
-        buttonUrl: "island/index.html",
+        buttonUrl: "Island/index.html",
         buttonText: "شاهد الان"
       },
   ];
