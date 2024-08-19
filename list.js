@@ -126,6 +126,13 @@ const items = [
         buttonUrl: "s15/index.html",
         buttonText: "شاهد الان"
       },
+      { 
+        title: "نهوض التنانين",
+        description: "الموسم الاول",
+        imageUrl: "dr.png",
+        buttonUrl: "Dragon Rising S1/index.html",
+        buttonText: "شاهد الان"
+      },
   ];
   
   // Function to render the repeater component
