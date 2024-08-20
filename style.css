@@ -60,7 +60,6 @@ body {
     cursor: pointer;
     padding-right: 10%;
 }
-
   #content {
     display: grid;
     grid-gap: 20px;
@@ -163,6 +162,36 @@ body {
 .gallery-button span {
   display: inline-block;
   transform: scale(0.5); /* Adjust size of the inner arrow */
+}
+.filter-container {
+  display: flex;
+  flex-wrap: wrap; /* Allows items to wrap on smaller screens */
+  gap: 10px; /* Adds space between filter elements */
+  margin: 10px;
+  direction: rtl;
+}
+.filter-group {
+  flex: 1; /* Allows each filter group to grow and shrink as needed */
+  min-width: 200px; /* Ensures a minimum width for dropdowns */
+  display: flex;
+  align-items: center; /* Centers label and select vertically */
+}
+.filter-group label {
+  margin-right: 10px;
+}
+.filter-group select {
+  flex: 1; /* Ensures select takes the remaining space in the group */
+}
+.hidden {
+  display: none;
+}
+.banner {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 20px;
 }
 .row {
     display: flex;

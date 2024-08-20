@@ -2,114 +2,72 @@
 const items = [
     { 
       title: "الحلقة الاولى",
-      description: "أتود أن تدخل إمبراطورية برايم",
+      description: "القمر الدامي",
       imageUrl: "ep1.png",
       buttonUrl: "ep1.html",
       buttonText: "شاهد الان"
     },
     { 
       title: "الحلقة الثانية",
-      description: "جزيرة داير",
+      description: "احلام مدمرة",
       imageUrl: "ep2.png",
       buttonUrl: "ep2.html",
       buttonText: "شاهد الان"
     },
     { 
       title: "الحلقة الثالثة",
-      description: "المستوى الثالث عشر",
+      description: "بعد كهف الوهم",
       imageUrl: "ep3.png",
       buttonUrl: "ep3.html",
       buttonText: "شاهد الان"
     },
     { 
         title: "الحلقة الرابعة",
-        description: "القائد العظيم جاي اللامع",
+        description: "قوة من الشمال",
         imageUrl: "ep4.png",
         buttonUrl: "ep4.html",
         buttonText: "شاهد الان"
       },
       { 
         title: "الحلقة الخامسة",
-        description: "أنا آوكينو",
+        description: "التعويذة عند الشلال",
         imageUrl: "ep5.png",
         buttonUrl: "ep5.html",
         buttonText: "شاهد الان"
       },
       { 
         title: "الحلقة السادسة",
-        description: "الخلل",
+        description: "إلى أرض الالغاز",
         imageUrl: "ep6.png",
         buttonUrl: "ep6.html",
         buttonText: "شاهد الان"
       },
       { 
         title: "الحلقة السابعة",
-        description: "منحدرات الجنون",
+        description: "هاربون من الجنون",
         imageUrl: "ep7.png",
         buttonUrl: "ep7.html",
         buttonText: "شاهد الان"
       },
       { 
         title: "الحلقة الثامنة",
-        description: "متاهة التنين الأحمر",
+        description: "اسرار الوايلدنس",
         imageUrl: "ep8.png",
         buttonUrl: "ep8.html",
         buttonText: "شاهد الان"
       },
       { 
         title: "الحلقة التاسعة",
-        description: "خطوة إلى أمام / خطوتان إلى الخلف",
+        description: "غابة الأرواح",
         imageUrl: "ep9.png",
         buttonUrl: "ep9.html",
         buttonText: "شاهد الان"
       },
       { 
         title: "الحلقة العاشرة",
-        description: "المتسابقة سبعة",
+        description: "صعود النينجا",
         imageUrl: "ep10.png",
         buttonUrl: "ep10.html",
-        buttonText: "شاهد الان"
-      },
-      { 
-        title: "الحلقة الحادية عشرة",
-        description: "سباق خمسة مليار",
-        imageUrl: "ep11.png",
-        buttonUrl: "ep11.html",
-        buttonText: "شاهد الان"
-      },
-      { 
-        title: "الحلقة الثانية عشرة",
-        description: "توقف ، إنخف ، عبور جانبي",
-        imageUrl: "ep12.png",
-        buttonUrl: "ep12.html",
-        buttonText: "شاهد الان"
-      },
-      { 
-        title: "الحلقة الثالثة عشرة",
-        description: "تحقيق سري في نينجاغو",
-        imageUrl: "ep13.png",
-        buttonUrl: "ep13.html",
-        buttonText: "شاهد الان"
-      },
-      { 
-        title: "الحلقة الرابعة عشرة",
-        description: "الأب الضال",
-        imageUrl: "ep14.png",
-        buttonUrl: "ep14.html",
-        buttonText: "شاهد الان"
-      },
-      { 
-        title: "الحلقة الخامسة عشرة",
-        description: "معبد الجنون",
-        imageUrl: "ep15.png",
-        buttonUrl: "ep15.html",
-        buttonText: "شاهد الان"
-      },
-      { 
-        title: "الحلقة السادسة عشر",
-        description: "إنتهت اللعبة",
-        imageUrl: "ep16.png",
-        buttonUrl: "ep16.html",
         buttonText: "شاهد الان"
       },
   ];

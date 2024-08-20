@@ -13,6 +13,24 @@
         </header>
         <br><br><br><br><br><br>
         <h1 id="title">شاهد الان</h1>
+        <div class="filter-container">
+            <div class="filter-group">
+                <label for="filterPart">فلتر حسب الجزء:</label>
+                <select id="filterPart">
+                    <option value="">جميع الأجزاء</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <label for="filterType">فلتر حسب النوع:</label>
+                <select id="filterType">
+                    <option value="">جميع الأنواع</option>
+                    <option value="موسم رائيسي">موسم رائيسي</option>
+                    <option value="أفلام قصيرة">أفلام قصيرة</option>
+                    <option value="حلقة اضافية">حلقة اضافية</option>
+                    <option value="فيلم">فيلم</option>
+                </select>
+            </div>
+        </div>
         <script src="nav.js"></script>
         <div id="repeater"></div>
         <script src="list.js" class="container"></script>

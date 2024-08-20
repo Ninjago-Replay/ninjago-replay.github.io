@@ -94,10 +94,10 @@ const items = [
         itemElement.appendChild(descriptionElement);
   
         // Create button element
-        const buttonElement = document.createElement("a");
-        buttonElement.href = item.buttonUrl;
-        buttonElement.textContent = item.buttonText;
-        itemElement.appendChild(buttonElement);
+        const buttonElement = document.createElement("button");
+          buttonElement.textContent = "شاهد الان";
+          buttonElement.onclick = () => window.location.href = item.buttonUrl;
+          itemElement.appendChild(buttonElement);
       }
     }
   }
