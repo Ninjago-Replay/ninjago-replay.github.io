@@ -3,9 +3,91 @@ body {
     margin: 0;
     padding: 0;
   }
+body.dark-theme {
+    background-color: #121212;
+    color: #ffffff;
+}
+body.dark-theme .section {
+  background-color: #1e1e1e;
+  color: #ffffff;
+}
+body.dark-theme .play-button {
+  background-color: #ff0000;
+  color: #ffffff;
+}
 
-  
-  #navigation {
+body.dark-theme .button, body.dark-theme button {
+  background-color: #750606;
+}
+
+body.dark-theme .description-container {
+  color: #ffffff;
+}
+
+body.dark-theme .video-container button {
+  background-color: #007bff;
+}
+
+body.dark-theme .contact-container {
+  background-color: #1e1e1e;
+  color: #ffffff;
+}
+/* Dark theme specific styles for tables */
+body.dark-theme table {
+  border-color: #444;
+}
+
+body.dark-theme th, body.dark-theme td {
+  border-color: #666;
+}
+
+body.dark-theme th {
+  background-color: #333;
+  color: red;
+}
+
+body.dark-theme td {
+  background-color: #1e1e1e;
+  color: #fff;
+}
+body.dark-theme .filter-container {
+  background-color: #1e1e1e; /* Dark background for the container */
+  color: #fff; /* Light text color for readability */
+}
+
+body.dark-theme .filter-group {
+  background-color: #333; /* Dark background for each filter group */
+  color: #fff; /* Light text color for readability */
+  border: 1px solid #444; /* Border color matching dark theme */
+}
+
+body.dark-theme .filter-group label {
+  color: #ddd; /* Light text color for labels */
+}
+
+body.dark-theme .filter-group select {
+  background-color: #444; /* Dark background for select dropdowns */
+  color: #fff; /* Light text color for select dropdowns */
+  border: 1px solid #555; /* Border color matching dark theme */
+}
+
+/* Style for filter dropdowns */
+body.dark-theme select {
+  background-color: #444; /* Dark background for dropdowns */
+  color: #fff; /* Light text color for dropdowns */
+  border: 1px solid #555; /* Border color matching dark theme */
+}
+
+body.dark-theme textarea {
+  background-color: #444; /* Dark background for textareas */
+  color: #fff; /* Light text color for textareas */
+  border: 1px solid #555; /* Border color matching dark theme */
+}
+body.dark-theme .episode-item a{
+  background-color: #121212;
+  color: #fff;
+}
+#navigation {
     padding: 20px;
     display: flex;
     align-items: left;
@@ -50,6 +132,20 @@ body {
     display: block;
 }
 
+/* Ensure navigation links are styled appropriately */
+.links-container a {
+  color: inherit; /* Inherit color from parent */
+}
+
+/* Make sure the dark theme button is visible and styled */
+.theme-toggle-button {
+  margin-left: auto;
+  padding: 0.5em;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
 .menu-button {
     display: none;
     background-color: #333;
@@ -74,6 +170,9 @@ body {
     margin: 20px 0;
     padding-left: 40%;
     padding-right: 40%;
+}
+#play-button.dark-theme {
+  background-color: #c9c5c5;
 }
 #play-button{
   display: block;
@@ -249,6 +348,7 @@ button, .button {
 button:hover, .button:hover {
   background-color: #750606;
 }
+
 .image-container {
   height: 40%;
   float: left;
@@ -316,6 +416,12 @@ button:hover, .button:hover {
   }
   
   .video-container iframe {
+    width: 80%;
+    height: 60vh; /* Adjust height as needed */
+    margin-bottom: 20px;
+  }
+
+  .video-container video {
     width: 80%;
     height: 60vh; /* Adjust height as needed */
     margin-bottom: 20px;
@@ -445,7 +551,7 @@ button:hover, .button:hover {
   table tbody tr:hover {
     background-color: #f0f0f0;
   }
-.contact-container {
+  .contact-container {
     background-color: #fff;
     padding: 20px 40px;
     border-radius: 8px;
@@ -825,11 +931,11 @@ footer{
   padding-bottom: 700px;
 }
 .description-container {
-  padding-bottom: 200px;
+  padding-bottom: 400px;
 }
 
 .description-container-2 {
-  padding-bottom: 500px;
+  padding-bottom: 700px;
 }
 .video-container iframe {
   width: 80%;
