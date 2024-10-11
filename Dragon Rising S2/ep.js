@@ -9,7 +9,17 @@ const episodes = [
     { title: 'الحلقة 7 : هاربون من الجنون', pageUrl: 'ep7.html' },
     { title: 'الحلقة 8 : اسرار الوايلدنس', pageUrl: 'ep8.html' },
     { title: 'الحلقة 9 : غابة الأرواح', pageUrl: 'ep9.html' },
-    { title: 'الحلقة 10 : صعود النينجا', pageUrl: 'ep10.html' }
+    { title: 'الحلقة 10 : صعود النينجا', pageUrl: 'ep10.html' },
+    { title: 'الحلقة 11 : شكل الحركة', pageUrl: 'ep11.html' },
+    { title: 'الحلقة 12 : داخل مدينة المعابد', pageUrl: 'ep12.html' },
+    { title: 'الحلقة 13 : إنهم يجتمعون للاحتفال بالعيد', pageUrl: 'ep13.html' },
+    { title: 'الحلقة 14 : داخل المتاهة', pageUrl: 'ep14.html' },
+    { title: 'الحلقة 15 : متحدون نسقط', pageUrl: 'ep15.html' },
+    { title: 'الحلقة 16 : الحقيقة والكذب', pageUrl: 'ep16.html' },
+    { title: 'الحلقة 17 : سيف الحطام', pageUrl: 'ep17.html' },
+    { title: 'الحلقة 18 : الأدلة والمشتبه بهم', pageUrl: 'ep18.html' },
+    { title: 'الحلقة 19 : المباراة النهائية', pageUrl: 'ep19.html' },
+    { title: 'الحلقة 20 : عناصر الخيانة', pageUrl: 'ep20.html' },
 ];
 
 // Function to create the episode list
