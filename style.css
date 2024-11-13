@@ -882,6 +882,58 @@ footer{
 .item {
   flex: 0 0 calc(29%);
 }
+.section {
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+}
+
+.section img, .section video {
+  width: 90%; /* Adjust width for mobile */
+  max-height: 300px; /* Reduce max height for mobile */
+}
+
+.section {
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+}
+
+.section img, .section video {
+  width: 90%; /* Adjust width for mobile */
+  max-height: 300px; /* Reduce max height for mobile */
+}
+
+.section .text {
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+  line-height: 1.5; /* Improve readability */
+  overflow: auto; /* Allow scrolling if necessary */
+  flex-grow: 1; /* Allow text to grow within the container */
+}
+
+.section.reverse {
+  flex-direction: column; /* Ensure reverse section stacks vertically */
+}
+
+.section.reverse .text {
+  animation: none; /* Optionally disable animation on mobile */
+  width: 100%; /* Ensure full width */
+  flex-grow: 1; /* Allow text to grow within the container */
+  padding: 10px; /* Adjust padding */
+  overflow: auto; /* Allow scrolling if necessary */
+  font-size: 18px; /* Maintain readability */
+  line-height: 1.5; /* Improve readability */
+}
+
+.section.reverse {
+  flex-direction: column; /* Ensure reverse section stacks vertically */
+}
+
+.section.reverse .text {
+  animation: none; /* Optionally disable animation on mobile */
+}
 .image-container {
   width: 80%;
   padding-left: 10%;
@@ -1054,25 +1106,6 @@ footer{
 }
 #play-button{
     font-size: 10px;
-}
-  .section {
-    flex-direction: column;
-    align-items: flex-start;
-    padding-bottom: 50px;
-}
-.section img {
-    width: 100%;
-    max-height: none;
-    margin-bottom: 20px;
-}
-.section .text {
-    width: 100%;
-    padding: 0px;
-}
-.section.reverse {
-  flex-direction: column;
-  max-height: 500px ;
-  padding-bottom: 700px;
 }
 .description-container {
   padding-bottom: 400px;
