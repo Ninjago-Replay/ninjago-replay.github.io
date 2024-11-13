@@ -13,7 +13,7 @@ const items = [
       title: "الموسم التجريبي",
       description: "أفلام مصغرة للموسم التجريبي",
       imageUrl: "pilot.png",
-      buttonUrl: "Mini/pilot/index.html",
+      buttonUrl: "Mini/Pilot/index.html",
       buttonText: "شاهد الان",
       type: "أفلام قصيرة",
       part: "نينجاغو : اسياد السبينجيتسو"
@@ -58,7 +58,7 @@ const items = [
       title: "الموسم الرابع",
       description: "تشين",
       imageUrl: "s4.png",
-      buttonUrl: "Mini/chen/index.html",
+      buttonUrl: "Mini/Chen/index.html",
       buttonText: "شاهد الان",
       type: "أفلام قصيرة",
       part: "نينجاغو : اسياد السبينجيتسو"
@@ -129,7 +129,7 @@ const items = [
     { 
       title: "الموسم الاضافي",
       description: "شاي وو",
-      imageUrl: "Mini/wu tea.png",
+      imageUrl: "Mini/Wu Tea.png",
       buttonUrl: "Mini/Wu's Teas/index.html",
       buttonText: "شاهد الان",
       type: "أفلام قصيرة",
@@ -148,7 +148,7 @@ const items = [
       title: "الموسم الاضافي",
       description: "فك الشفرة",
       imageUrl: "Mini/Decoded.png",
-      buttonUrl: "Mini/decoded/index.html",
+      buttonUrl: "Mini/Decoded/index.html",
       buttonText: "شاهد الان",
       type: "أفلام قصيرة",
       part: "نينجاغو : اسياد السبينجيتسو"
@@ -246,7 +246,7 @@ const items = [
     { 
       title: "الموسم ما قبل الرابعة عشرة",
       description: "الجزيرة",
-      imageUrl: "Island.png",
+      imageUrl: "island.png",
       buttonUrl: "island/index.html",
       buttonText: "شاهد الان",
       type : "موسم رائيسي",
@@ -255,7 +255,7 @@ const items = [
     { 
       title: "الموسم ما قبل الرابعة عشرة",
       description: "فضائل السبينجيتسو",
-      imageUrl: "Island.png",
+      imageUrl: "island.png",
       buttonUrl: "Mini/The Virtues of Spinjitzu/index.html",
       buttonText: "شاهد الان",
       type: "أفلام قصيرة",
