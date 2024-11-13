@@ -1,10 +1,21 @@
-<html>
+<html dir="rtl" lang="ar">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>المشاهدة | Ninjago Replay</title>
         <link rel="stylesheet" href="style.css?v=1.0">
         <link rel="icon" href="logo.png" type="image/png">
+        <style>
+            .item img{
+                height: 500px;
+            }
+            table th{
+                width: 40%;
+            }
+            table td{
+                width: 60%;
+            }
+        </style>
     </head>
     <body>
         <header>
@@ -14,20 +25,17 @@
         <br><br><br><br><br><br>
         <h1 id="title">شاهد الان</h1>
         <div class="filter-container">
+            <dix class="filter-group">
+                <input type="text" id="searchInput" placeholder="ابحث..." oninput="handleSearchChange()">
+            </dix>
             <div class="filter-group">
-                <label for="filterPart">فلتر حسب الجزء:</label>
+                <label for="filterPart">اختر جزء:</label>
                 <select id="filterPart">
-                    <option value="">جميع الأجزاء</option>
                 </select>
             </div>
             <div class="filter-group">
-                <label for="filterType">فلتر حسب النوع:</label>
+                <label for="filterType">اختر النوع:</label>
                 <select id="filterType">
-                    <option value="">جميع الأنواع</option>
-                    <option value="موسم رائيسي">موسم رائيسي</option>
-                    <option value="أفلام قصيرة">أفلام قصيرة</option>
-                    <option value="حلقة اضافية">حلقة اضافية</option>
-                    <option value="فيلم">فيلم</option>
                 </select>
             </div>
         </div>

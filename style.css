@@ -25,7 +25,7 @@ body.dark-theme .description-container {
 }
 
 body.dark-theme .video-container button {
-  background-color: #007bff;
+  background-color: #ff0000;
 }
 
 body.dark-theme .contact-container {
@@ -54,7 +54,10 @@ body.dark-theme .filter-container {
   background-color: #1e1e1e; /* Dark background for the container */
   color: #fff; /* Light text color for readability */
 }
-
+body.dark-theme input{
+  background-color: #333;
+  color: white;
+}
 body.dark-theme .filter-group {
   background-color: #333; /* Dark background for each filter group */
   color: #fff; /* Light text color for readability */
@@ -88,74 +91,143 @@ body.dark-theme .episode-item a{
   color: #fff;
 }
 #navigation {
-    padding: 20px;
-    display: flex;
-    align-items: left;
-    position: fixed ;
-    width: 100%;
-    background-color: #333;
-    direction: rtl;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  position: fixed ;
+  width: 100%;
+  background-color: #333;
+  z-index: 1000;
   }
-
-  #navigation img {
+  .nav-links,
+  .login-image,
+  .profile-link{
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 5px;
+  width: 35px;
+  height: 35px;
+  }
+  .nav-icon{
+  width: 35px;
+  height: 35px;
+  }
+  .logo-image {
     width: 200px; 
     height: 50px;
-    margin-right: 20px;
-    left: 20px;
-    top: 10px;
-    position: absolute;
-  }
-  
-  #navigation a {
-    color: #fff;
-    text-decoration: none;
-    padding: 10px 20px;
-    margin-right: 20px;
-    border: none;
-    border-radius: 5px;
-  }
+    padding-left: 5px;
+    padding-right: 5px;
+    }
+    .login-image{
+    width: 35px;
+    height: 35px;
+    }
+    .profile-photo{
+    display: flex;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    }
   /* Hover effect for the navigation links */
   #navigation a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
   }
   
   /* Center the logo and links horizontally */
   #navigation {
-    justify-content: right;
+  justify-content: right;
   }
-  .links-container {
-    display: flex;
-    justify-content: flex-end;
-}
-
-.links-container a {
+  #button {
     display: block;
-}
-
-/* Ensure navigation links are styled appropriately */
-.links-container a {
-  color: inherit; /* Inherit color from parent */
-}
-
-/* Make sure the dark theme button is visible and styled */
-.theme-toggle-button {
-  margin-left: auto;
-  padding: 0.5em;
-  border: none;
-  background: none;
-  cursor: pointer;
-}
-
-.menu-button {
-    display: none;
-    background-color: #333;
     color: #fff;
     border: none;
-    padding: 10px;
-    font-size: 20px;
+    border-radius: 5px;
     cursor: pointer;
-    padding-right: 10%;
-}
+    transition: background-color 0.3s ease;
+    margin: 0 auto;
+    background-color: #fd0000;
+    padding: 20px;
+    }
+    
+    /* Mobile Menu Button */
+    .menu-button {
+    display: none; /* Hidden by default */
+    font-size: 24px; /* Adjust size */
+    background: none;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    }
+    .menu-button img{
+    width: 35px;
+    height: 35px;
+    }
+    .close-button {
+    background: none;
+    border: none;
+    font-size: 24px; /* Adjust size */
+    cursor: pointer;
+    margin: 15px; /* Space around the button */
+    align-self: flex-end; /* Align it to the right */
+    display: none;
+    color: white;
+    }
+    .links-container {
+    display: flex; /* Default display for desktop */
+    gap: 15px; /* Space between links */
+    }
+    /* Mobile-specific styles */
+    [lang="ar"] .links-container.mobile {
+    transition: right 0.3s ease; /* Smooth transition */
+    }
+    @keyframes slide{
+      0% {width: 0%;}
+      100% {width: 200px;}
+    }
+    .links-container.mobile {
+    position: fixed; /* Fixed position for mobile */
+    bottom: 0;
+    top: 75px;
+    width: 200px; /* Adjust width as needed */
+    background-color: #333; /* Background for menu */
+    flex-direction: column; /* Stack links vertically */
+    overflow-y: auto;
+    animation: slideoff 1s;
+    }
+    /* Show links when activated */
+    [lang="ar"] .links-container.mobile.show {
+      right: 0; /* Slide into view */
+      }
+    .links-container.mobile.show {
+    left: 0; /* Slide into view */
+    }
+    .links-container a:hover {
+    background-color: #444; /* Hover effect */
+    }
+    /* Make sure the dark theme button is visible and styled */
+    [lang="ar"] .theme-toggle-button {
+    margin-right: auto;
+    order: 5;
+    border: 0;
+    background-color: unset;
+    }
+    [lang]:not([lang="ar"]) .theme-toggle-button {
+    margin-left: auto;
+    order: 5;
+    border: 0;
+    background-color: unset;
+    }
+      
+    .theme-toggle-button img{
+    width: 35px;
+    height: auto;
+    }
   #content {
     display: grid;
     grid-gap: 20px;
@@ -188,33 +260,85 @@ body.dark-theme .episode-item a{
     font-size: 24px;
 }
 .section {
-    display: flex;
-    align-items: center;
-    margin-bottom: 50px;
-    padding: 20px;
-    background-color: #fff;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
 }
-.section img {
-    width: 40%;
-    max-height: 500px;
-    border-radius: 10px;
+
+.section2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50px;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
 }
+
+.section2 a {
+  text-decoration: none;
+}
+
+.section img, .section video {
+  width: 40%;
+  max-height: 500px;
+  border-radius: 10px;
+}
+
+@keyframes slide-right {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slide-left {
+  from {
+    transform: translateX(100%); 
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+[lang="ar"] .section .text {
+  animation: slide-right 1s forwards; /* Apply the animation */
+}
+
+[lang="ar"] .section.reverse .text {
+  animation: slide-left 1s forwards; /* Apply the animation */
+}
+
 .section .text {
-    width: 60%;
-    padding: 20px;
-    direction: rtl;
-    font-size: 20px;
+  width: 60%;
+  padding: 20px;
+  font-size: 20px;
+  animation: slide-left 1s forwards; /* Apply the animation */
+  overflow: hidden;
 }
+
 .section.reverse {
-    flex-direction: row-reverse;
-    max-height: 500px ;
+  flex-direction: row-reverse;
 }
+
+.section.reverse .text {
+  animation: slide-right 1s forwards; /* Apply the animation */
+  overflow: hidden;
+}
+
+.section a {
+  text-decoration: none;
+}
+
 .heroes {
-    display: flex;
-    align-items: center;
-    direction: rtl;
+  display: flex;
+  align-items: center;
 }
 .gallery {
   display: flex;
@@ -243,7 +367,7 @@ body.dark-theme .episode-item a{
   font-size: 0.8em;
 }
 .gallery-button {
-  background-color: #007bff;
+  background-color: #ff0000;
   color: #fff;
   border: none;
   width: 20px;
@@ -256,7 +380,7 @@ body.dark-theme .episode-item a{
   flex-shrink: 0;
 }
 .gallery-button:hover {
-  background-color: #0056b3;
+  background-color: #b30000;
 }
 .gallery-button span {
   display: inline-block;
@@ -285,12 +409,26 @@ body.dark-theme .episode-item a{
   display: none;
 }
 .banner {
-  font-size: 24px;
-  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center contents */
+  padding: 15px;
+  border-radius: 8px;
   color: white;
-  padding: 10px;
-  text-align: center;
-  margin-bottom: 20px;
+  background-color: #007BFF; /* Fallback background color */
+}
+
+.banner img {
+  width: auto;
+  max-height: 50px;
+  border-radius: 8px; /* Rounded corners for the image */
+  margin-bottom: 10px; /* Space between image and title */
+}
+
+.banner h2 {
+  margin: 0;
+  font-size: 20px; /* Font size for the title */
+  text-align: center; /* Center the title */
 }
 .row {
     display: flex;
@@ -459,10 +597,13 @@ button:hover, .button:hover {
     cursor: pointer;
     transition: background-color 0.3s ease;
     margin: 0 auto;
-    background-color: #007bff;
+    background-color: #ff0000;
+  }
+  .video-container a{
+    text-decoration: none;
   }
   .video-container button:hover{
-    background-color: #0056b3;
+    background-color: #b30000;
   }
   .episode-list-container {
     padding: 20px;
@@ -509,11 +650,11 @@ button:hover, .button:hover {
     transition: background-color 0.3s ease;
     width: 80%;
     margin: 0 auto;
-    background-color: #007bff;
+    background-color: #ff0000;
 }
 
 #toggle-button:hover {
-    background-color: #0056b3;
+    background-color: #b30000;
 }
 
   .fact {
@@ -714,26 +855,44 @@ footer{
 }
 @media (max-width: 720px){
   .menu-button {
-    display: block;
-}
-
-.links-container {
-    display: none;
-    flex-direction: column;
-    width: 50%;
-    float: right;
-}
-
-.links-container.show {
-    display: flex;
-}
-
-.links-container a {
-    text-align: center;
-    padding: 10px;
+    display: block; /* Show on mobile */
+    }
+    .links-container {
+    display: none; /* Hide links on mobile */
+    order: 1;
+    }
+    .links-container.mobile {
+    display: flex; /* Use flexbox for mobile links */
+    animation: slide 1s;
+    }
+    .nav-links{
+    width: 160px;
     margin: 0;
-    border-top: 1px solid #444;
-    border-bottom: 1px solid #444;
+    }
+    .nav-icon,
+    .login-image {
+    margin-left: 50px;
+    margin-right: 50px;
+    }
+    .close-button{
+    display: block;
+    }
+    .logo-image{
+    order: 2;
+    }
+    .theme-toggle-button{
+    margin-right: 5px;
+    margin-left: 5px;
+    }
+    .language-selector{
+    display: none;
+    }
+  .language-selector-mobile{
+    display: block;
+    margin-bottom: 20px;
+}
+    .profile-link{
+    order: 5;
 }
 .row {
   padding-top: 20px;
@@ -807,6 +966,9 @@ footer{
 }
 }
 @media (max-width: 480px) {
+  .logo-image{
+    width: 150px;
+  }
   .item {
     flex: 0 0 calc(95%);
     padding-right: 10px;
