@@ -247,7 +247,7 @@ const items = [
       title: "الموسم ما قبل الرابعة عشرة",
       description: "الجزيرة",
       imageUrl: "island.png",
-      buttonUrl: "island/index.html",
+      buttonUrl: "Island/index.html",
       buttonText: "شاهد الان",
       type : "موسم رائيسي",
       part: "نينجاغو"
