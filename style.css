@@ -436,7 +436,16 @@ z-index: 1000;
     padding: 10px;
     text-align: right;
   }
-  
+  .row button {
+    display: block;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    background-color: #fd0000;
+    padding: 10px;
+  }
   .row::after {
     content: "";
     flex: auto;
