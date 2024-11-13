@@ -212,12 +212,16 @@ z-index: 1000;
     order: 5;
     border: 0;
     background-color: unset;
+    width: 35px;
+    height: 35px;
     }
     [lang]:not([lang="ar"]) .theme-toggle-button {
     margin-left: auto;
     order: 5;
     border: 0;
     background-color: unset;
+    width: 35px;
+    height: 35px;
     }
       
     .theme-toggle-button img{
