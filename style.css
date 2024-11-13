@@ -222,6 +222,7 @@ z-index: 1000;
     background-color: unset;
     width: 35px;
     height: 35px;
+    margin-left: 15px;
     }
       
     .theme-toggle-button img{
