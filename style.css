@@ -214,17 +214,8 @@ z-index: 1000;
     background-color: unset;
     width: 35px;
     height: 35px;
-    }
-    [lang]:not([lang="ar"]) .theme-toggle-button {
-    margin-left: auto;
-    order: 5;
-    border: 0;
-    background-color: unset;
-    width: 35px;
-    height: 35px;
     margin-left: 15px;
     }
-      
     .theme-toggle-button img{
     width: 35px;
     height: auto;
@@ -467,25 +458,6 @@ z-index: 1000;
 }
 #information{
     text-align: center;
-}
-button, .button {
-  background-color: Red;
-  border: none; 
-  color: white; 
-  padding: 15px 32px; 
-  text-align: center; 
-  text-decoration: none; 
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px; 
-  cursor: pointer; 
-  border-radius: 12px; 
-  transition: background-color 0.3s ease; 
-}
-
-/* Darker background on mouse-over */
-button:hover, .button:hover {
-  background-color: #750606;
 }
 
 .image-container {
