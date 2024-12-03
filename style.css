@@ -716,6 +716,23 @@ textarea {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 32px;
 }
+.info{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.info img{
+  width: 50%;
+  border-radius: 50%;
+}
+.info h1{
+  color: red;
+}
+.info h2{
+  color: green;
+  font-size: 48px;
+}
 #version{
   direction: rtl;
   align-items: center;
