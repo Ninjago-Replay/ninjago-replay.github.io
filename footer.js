@@ -2,7 +2,7 @@
 
 // Define footer content
 var footerContent = {
-    copyright: "© 2024 Ninjago Replay. كل الحقوق محفوظة",
+    copyright: "© 2025 Ninjago Replay. كل الحقوق محفوظة",
     version: "2025.4.18"
 };
 
