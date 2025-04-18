@@ -281,32 +281,6 @@ z-index: 1000;
   border-radius: 10px;
 }
 
-@keyframes slide-right {
-  from {
-    transform: translateX(-100%);
-  }
-  to {
-    transform: translateX(0);
-  }
-}
-
-@keyframes slide-left {
-  from {
-    transform: translateX(100%); 
-  }
-  to {
-    transform: translateX(0);
-  }
-}
-
-[lang="ar"] .section .text {
-  animation: slide-right 1s forwards; /* Apply the animation */
-}
-
-[lang="ar"] .section.reverse .text {
-  animation: slide-left 1s forwards; /* Apply the animation */
-}
-
 .section .text {
   width: 60%;
   padding: 20px;
