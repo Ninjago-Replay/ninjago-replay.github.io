@@ -351,6 +351,15 @@ const items = [
       type: "ملاحظات صوتية",
       part: "نينجاغو : نهوض التنانين"
     },
+    { 
+      title: "الموسم الثالث",
+      description: "التنين المحطم",
+      imageUrl: "dr3.png",
+      buttonUrl: "Dragon Rising S3/index.html",
+      buttonText: "قريبا",
+      type : "موسم رائيسي",
+      part: "نينجاغو : نهوض التنانين"
+    },
   ];
   let searchTerm = ""; // Global variable to hold the search term
 

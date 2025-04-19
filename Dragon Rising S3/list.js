@@ -2,7 +2,7 @@
 const items = [
     { 
       title: "الحلقة الاولى",
-      description: "المفقودين",
+      description: "المفقود",
       imageUrl: "ep1.png",
       buttonUrl: "ep1.html",
       buttonText: "شاهد الان",
@@ -66,7 +66,7 @@ const items = [
       },
       { 
         title: "الحلقة التاسعة",
-        description: "التصادم معًا",
+        description: "الفوضى غير المقيدة",
         imageUrl: "ep9.png",
         buttonUrl: "ep9.html",
         buttonText: "شاهد الان",

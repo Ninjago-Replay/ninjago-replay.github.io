@@ -1,6 +1,6 @@
 // Define an array of episodes with title and photo URL
 const episodes = [
-    { title: 'الحلقة 1 : المفقودين', pageUrl: 'ep1.html' },
+    { title: 'الحلقة 1 : المفقود', pageUrl: 'ep1.html' },
     { title: 'الحلقة 2 : الهدف النهائي للإعجاب', pageUrl: 'ep2.html' },
     { title: 'الحلقة 3 : الأراضي الطيفية', pageUrl: 'ep3.html' },
     { title: 'الحلقة 4 : سرقة زين الكبرى', pageUrl: 'ep4.html' },
