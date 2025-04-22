@@ -1,0 +1,6 @@
+RewriteEngine On
+
+# Allow access to index.html only
+RewriteCond %{REQUEST_URI} !^/index\.html$
+RewriteCond %{REQUEST_URI} !^/$
+RewriteRule ^.*$ - [F,L]
