@@ -1,12 +1,15 @@
 function createNavigationBar() {
     const navElement = document.getElementById('navigation');
-    const links = navigationLinks;
 
     const logoImage = document.createElement('img');
     logoImage.src = '/ninjago.png';
     logoImage.alt = 'My Logo';
     logoImage.className = 'logo-image'; 
     navElement.appendChild(logoImage);
+
+    const linksContainer = document.createElement('div');
+    linksContainer.className = 'links-container';
+    navElement.appendChild(linksContainer);
 
     const themeToggleButton = document.createElement('button');
     themeToggleButton.className = 'theme-toggle-button';
@@ -47,7 +50,7 @@ function createNavigationBar() {
         applyTheme(newTheme);
         localStorage.setItem('theme', newTheme);
     });
-}
+};
 
 document.addEventListener('DOMContentLoaded', createNavigationBar);
 
