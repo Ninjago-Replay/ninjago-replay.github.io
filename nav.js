@@ -1,10 +1,3 @@
-const navigationLinks = [
-    { img: '/Media/Photo/Website/home.png', url: `/index.html` },
-    { img: '/Media/Photo/Website/watch.png', url: `/watch.html` },
-    { img: '/Media/Photo/Website/info.png', url: `/about.html` },
-    { img: '/Media/Photo/Website/contact.png', url: `/contact.html` }
-];
-
 function createNavigationBar() {
     const navElement = document.getElementById('navigation');
     const links = navigationLinks;
@@ -15,30 +8,6 @@ function createNavigationBar() {
     logoImage.className = 'logo-image'; 
     navElement.appendChild(logoImage);
 
-    const linksContainer = document.createElement('div');
-    linksContainer.className = 'links-container';
-    navElement.appendChild(linksContainer);
-
-    const menuButton = document.createElement('button');
-    menuButton.className = 'menu-button';
-    const menuIcon = document.createElement('img');
-    menuIcon.src = "/Media/Photo/Website/menu-open.png"; // Default image
-    menuButton.appendChild(menuIcon);
-    navElement.appendChild(menuButton);
-
-    links.forEach(link => {
-        const linkElement = document.createElement('a');
-        linkElement.className = 'nav-links';
-        linkElement.href = link.url;
-
-        const imgElement = document.createElement('img');
-        imgElement.src = link.img;
-        imgElement.alt = ''; 
-        imgElement.className = 'nav-icon'; 
-
-        linkElement.appendChild(imgElement);
-        linksContainer.appendChild(linkElement);
-    });
     const themeToggleButton = document.createElement('button');
     themeToggleButton.className = 'theme-toggle-button';
     themeToggleButton.innerHTML = '<img src="/Media/Photo/Website/dark-theme.png">'; 
@@ -71,18 +40,6 @@ function createNavigationBar() {
         const prefersDarkScheme = window.matchMedia("(prefers-color-scheme: dark)").matches;
         applyTheme(prefersDarkScheme ? 'dark' : 'light');
     }
-
-    menuButton.addEventListener('click', () => { 
-        linksContainer.classList.toggle('show');
-        linksContainer.classList.toggle('mobile'); 
-    
-        // Toggle the image source
-        if (linksContainer.classList.contains('show')) {
-            menuIcon.src = "/Media/Photo/Website/menu-close.png"; // Image when menu is open
-        } else {
-            menuIcon.src = "/Media/Photo/Website/menu-open.png"; // Image when menu is closed
-        }
-    });
 
     themeToggleButton.addEventListener('click', () => {
         const currentTheme = document.body.classList.contains('dark-theme') ? 'dark' : 'light';
